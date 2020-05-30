@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/sign.css">
+    <script src="js/signUp.js"></script>
+</head>
+<body>
+<div id="sign-page" class="container-fluid">
+    <div class="sign-wrapper">
+        <h1 style="color: white">Login</h1>
+        <form>
+            <div class="form-group">
+                <input type="email" id="emailInput" required="true" class="form-control" name="registration-email" placeholder="Email">
+            </div>
+            <div class="form-group">
+                <input type="password" id="passwordInput" required="true" class="form-control" name="registration-password" placeholder="Password">
+            </div>
+            <div class="sign-button-wrapper">
+                <button type="button" id='signUpButton' class="btn-default-btn" onClick='signIn()'>Login</button>
+            </div>
+            <div class="other-type-sign">
+                <p class="no-account">Don't have an account?
+                <a href="registration.html" style="color: white">Sign Up</a></p>
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,99 @@
+﻿$primary-color: #2c3e50;
+$background-color: #ecf0f1;
+$text-color: #FFFFFF;
+$search-button-hover: #0b7dda;
+
+.fa {
+	font-family: 'Alegreya', serif;
+}
+body {
+	font-family: 'Alegreya', serif;
+}
+.jumbotron {
+	color: $primary-color;
+	background-color: $background-color;
+}
+.nav {
+	background-color: $primary-color;
+}
+.navbar-dark {
+	.navbar-nav {
+		.nav-link {
+			color: $text-color;
+		}
+	}
+}
+.h1 {
+	font-size: 3.0rem;
+}
+h1 {
+	font-size: 3.0rem;
+}
+.input-form {
+	padding-top: 2%;
+}
+.confirm-button-wrapper {
+	margin-top: 1.5%;
+	text-align: right;
+	border: none;
+	border-radius: 20px;
+	text-decoration: none;
+}
+.profile-title {
+	font-size: 1.1rem;
+}
+.confirm-button {
+	background-color: $primary-color;
+	text-align: right;
+	margin-top: 20px;
+	border-radius: 10px;
+	background: transparent;
+	padding: 10px 50px;
+	border: 1.5px solid $primary-color;
+	color: $primary-color;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+.search-label {
+	display: block;
+	font: 1rem 'Fira Sans', sans-serif;
+	margin: .4rem 0;
+}
+.search-input {
+	margin: .4rem 0;
+}
+form.example {
+	input[type=text] {
+		padding: 10px;
+		font-size: 17px;
+		border: 1px solid grey;
+		float: left;
+		width: 80%;
+		background: $text-color;
+	}
+	button {
+		margin-top: 1%;
+		margin-bottom: 2%;
+		float: left;
+		width: 20%;
+		padding: 10px;
+		background: $primary-color;
+		color: $text-color;
+		font-size: 17px;
+		border: 1px solid grey;
+		border-left: none;
+		cursor: pointer;
+		&:hover {
+			background: $search-button-hover;
+		}
+	}
+	input {
+		margin-top: 1%;
+		margin-bottom: 2%;
+	}
+	&::after {
+		content: "";
+		clear: both;
+		display: table;
+	}
+}
